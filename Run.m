@@ -21,7 +21,7 @@ GPUID = 1;
 EvalSaveDir = New_mkdir([pwd '/' SaveDirName '/' DataSetName]);
 TestClassNameList = {'bike', 'cars', 'person'};
 Lambda = [2.5 0.6 2^12];
-learningRate = 0.00001 * ones(1, 2);
+learningRate = 0.00001 * ones(1, 20); 
 for i = 1:length(TestClassNameList)
     opts = CNNTrain('DataSetName', DataSetName, 'expDir', [expDir '/' DataSetName], 'GPUID', GPUID,...
         'ClassName', TestClassNameList{i}, 'Lambda', Lambda(1:2), 'FCNModelPath', FCNModelPath, 'learningRate', learningRate, ...
