@@ -2,7 +2,7 @@
 
 ## These codes are different from the original version because of the journal submission.
 
-1. The output of the generator is W \times H \times 1 after a sigmoid normalization instead of W \times H \times 2 after a softmax normalization .
+### 1. The output of the generator is W \times H \times 1 after a sigmoid normalization instead of W \times H \times 2 after a softmax normalization .
 
 2. In the journal submission, we introduced two addition losses which will be released until the extension version is accepted.
 
