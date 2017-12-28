@@ -30,4 +30,4 @@ PDF:
 
 ## Some results in the journal extension:
 + faster speed: 
-<img src="https://github.com/shamangary/DeepCD/blob/master/models_word.png" height="400"/>
+<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Speed.PNG" height="400"/>
