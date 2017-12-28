@@ -27,6 +27,7 @@ PDF:
 ---
 
 ## Demo for Training and test: "Run.m"
+
 Note: This code is only for demo and different from the origianl code. The parameters for weighting the losses are not tuned, so performance may be worse than the ones in [BMVC17]. In addition, the random seed and the number of the epoches may effect the performance. However, the results of all datasets reported in [BMVC17] will be released soon.
 ---
 
