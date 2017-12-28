@@ -20,7 +20,7 @@ PDF:
 
 + Link2: http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf
 
-<p>This is the authors' demo code described in the above paper. Please cite our paper if you find it useful for your research.</p>
+<p>Please cite our paper if this code is useful for your research.</p>
 <pre><code>@inproceedings{Cheng_ICCV_2017,
   author = {J. Cheng and Y.-H. Tsai and S. Wang and M.-H. Yang},
   booktitle = {IEEE International Conference on Computer Vision (ICCV)},
