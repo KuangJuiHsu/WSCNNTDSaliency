@@ -20,13 +20,15 @@ PDF:
 ---
 
 ## Demo for Training and test: "Run.m"
-+  This code is only for demo and different from the origianl code. The parameters for weighting the losses are not tuned, so performance may be worse than the ones in [BMVC17]. In addition, the random seed and the number of the epoches may effect the performance. 
++  This code is only for demo and different from the origianl code. 
 
 + The output size of the generator is W * H * 1 after a sigmoid normalization instead of W * H * 2 after a softmax normalization.
 
++ In addition, the random seed and the number of the epoches may effect the performance. 
+
 ---
 
-## Images generated in BMVC'17:  [Link](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
+## Results used in BMVC'17:  [Released soon](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
 
 ---
 
