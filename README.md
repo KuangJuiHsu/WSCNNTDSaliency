@@ -29,5 +29,9 @@ PDF:
 ## Images generated in BMVC'17:  [Link](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
 
 ## Some results in the journal extension:
-+ faster speed: 
-<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Speed.PNG" height="400"/>
++ Faster speed: 
+<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Speed.PNG" height="150"/>
+
++ Better results:
+<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Graz02.PNG" height="150"/>
+<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/VOC.PNG" height="150"/>
