@@ -6,8 +6,7 @@ Last update: 2017/12/28
 
 Platform: Ubuntu 14.04, MatConvnet 1.0-beta24 (http://www.vlfeat.org/matconvnet/) (We don's support any installation problem of MatConvnet.)
 
----------------------------------------------------------------------------------------------------------
-
+---
 
 ## These codes are different from the original version because of the journal submission.
 
@@ -17,4 +16,7 @@ Platform: Ubuntu 14.04, MatConvnet 1.0-beta24 (http://www.vlfeat.org/matconvnet/
 
 ### In these codes, we only release the version with the losses used in [BMVC'17] and sigmoid, and the parameters for weighting the losses are not tuned. The performance may be worse than the ones in [BMVC17]. Howver, the result of all datasets reported in [BMVC17] will be released soon.
 
----------------------------------------------------------------------------------------------------------
+---
+
+## Run Training and test
+"Run.m"
