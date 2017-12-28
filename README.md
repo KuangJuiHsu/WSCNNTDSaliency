@@ -24,15 +24,12 @@ PDF:
 1. The output size of the generator is W * H * 1 after a sigmoid normalization instead of W * H * 2 after a softmax normalization.
 
 2. In the journal submission, we introduced two addition losses which will be released until the extension version is accepted.
-
-**In these codes, we only release the version with the losses used in [BMVC'17] and sigmoid, and the parameters for weighting the losses are not tuned. The performance may be worse than the ones in [BMVC17]. Howver, the result of all datasets reported in [BMVC17] will be released soon.**
-
 ---
 
 ## Demo for Training and test: "Run.m"
-
+**This code is different from the origianl code. The parameters for weighting the losses are not tuned, so performance may be worse than the ones in [BMVC17]. In addition, the random seed and the number of the epoches may effect the performance. However, the results of all datasets reported in [BMVC17] will be released soon.**
 ---
 
-## The models and results in BMVC'17:
+## Results in BMVC'17:
 
 
