@@ -13,9 +13,9 @@ Authors: [Kuang-Jui Hsu](https://www.citi.sinica.edu.tw/pages/kjhsu/), [Yen-Yu L
 
 PDF:
 
-Link1: https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf 
++Link1: https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf 
 
-Link2: http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf
++Link2: http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf
 
 ---
 
