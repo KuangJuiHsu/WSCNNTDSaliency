@@ -33,5 +33,5 @@ PDF:
 <img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Speed.PNG" height="150"/>
 
 + Better results:
-<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Graz02.PNG" height="150"/>
+<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/Graz.PNG" height="150"/>
 <img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/VOC.PNG" height="150"/>
