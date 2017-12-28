@@ -18,5 +18,9 @@ Platform: Ubuntu 14.04, MatConvnet 1.0-beta24 (http://www.vlfeat.org/matconvnet/
 
 ---
 
-## Run Training and test
-"Run.m"
+## Demo for Training and test: "Run.m"
+
+---
+
+## Generate the results used in BMVC'17
+
