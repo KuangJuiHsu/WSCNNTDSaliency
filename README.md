@@ -1,5 +1,8 @@
 # [BMVC17] Weakly Supervised Saliency Detection with A Category-Driven Map Generator
 
+## 1
+
+
 These codes are different from the original version because of the journal submission.
 
 1. The output of the generator is W \times H \times 1 after a sigmoid normalization instead of W \times H \times 2 after a softmax normalization .
