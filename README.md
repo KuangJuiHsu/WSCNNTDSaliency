@@ -22,5 +22,6 @@ Platform: Ubuntu 14.04, MatConvnet 1.0-beta24 (http://www.vlfeat.org/matconvnet/
 
 ---
 
-## The results used in BMVC'17: 
+## The models and results in BMVC'17:
+
 
