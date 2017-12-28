@@ -11,7 +11,7 @@ Platform: Ubuntu 14.04, [MatConvnet 1.0-beta24](http://www.vlfeat.org/matconvnet
 # Paper: [BMVC17] Weakly Supervised Saliency Detection with A Category-Driven Map Generator
 Authors: [Kuang-Jui Hsu](https://www.citi.sinica.edu.tw/pages/kjhsu/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/index_zh.html), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/)
 
-<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/BMVC17.PNG" height="300"/>
+<img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/BMVC17.PNG" height="400"/>
 
 PDF:
 
