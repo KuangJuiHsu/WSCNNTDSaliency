@@ -40,7 +40,7 @@ PDF:
 ---
 
 ## Results used in BMVC'17:  [Released soon](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
-+ Be patient because the data are downloading from Google drive
++ Be patient because the data are being uploaded to Google drive
 
 ---
 
