@@ -21,10 +21,10 @@ PDF:
 + Link2: http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf
 
 <p>Please cite our paper if this code is useful for your research.</p>
-<pre><code>@inproceedings{Cheng_ICCV_2017,
-  author = {J. Cheng and Y.-H. Tsai and S. Wang and M.-H. Yang},
-  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
-  title = {SegFlow: Joint Learning for Video Object Segmentation and Optical Flow},
+<pre><code>@inproceedings{HsuBMVC17,
+  author = {K.-J. Hsu and Y.-Y. Lin and Y.-Y Chuang},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  title = {Weakly Supervised Saliency Detection with A Category-Driven Map Generator},
   year = {2017}
 }
 </code></pre>
