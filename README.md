@@ -20,7 +20,7 @@ PDF:
 ---
 
 ## Demo for Training and test: "Run.m"
-+  This code is only for demo and different from the origianl code. 
++ This code is only for demo and different from the origianl code because some files were overwrited when I worked for the journal extension. 
 
 + The output size of the generator is W * H * 1 after a sigmoid normalization instead of W * H * 2 after a softmax normalization.
 
@@ -29,6 +29,7 @@ PDF:
 ---
 
 ## Results used in BMVC'17:  [Released soon](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
++ Be patient because the data are downloading from Google drive
 
 ---
 
