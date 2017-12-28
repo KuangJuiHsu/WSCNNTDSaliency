@@ -19,6 +19,15 @@ PDF:
 
 + Link2: http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf
 
+<p>This is the authors' demo code described in the above paper. Please cite our paper if you find it useful for your research.</p>
+<pre><code>@inproceedings{Cheng_ICCV_2017,
+  author = {J. Cheng and Y.-H. Tsai and S. Wang and M.-H. Yang},
+  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+  title = {SegFlow: Joint Learning for Video Object Segmentation and Optical Flow},
+  year = {2017}
+}
+</code></pre>
+
 ---
 
 ## Demo for Training and test: "Run.m"
