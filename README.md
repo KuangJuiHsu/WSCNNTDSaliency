@@ -38,13 +38,13 @@ PDF: [Link1](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf
 
 + The results are slightly better than ones reported in [BMVC'17] for Graz02 Dataset, and you can downloaded the data from [Link for Epoches](https://github.com/KuangJuiHsu/WSCNNTDSaliency) and [Link for Results](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
 
+
 ---
 
 ## Results used in BMVC'17:  
 + [Graz02](https://drive.google.com/file/d/1Se6uKCAqfzi2AvdyXRk6j4bHH34cM-Nr/view?usp=sharing)
 + [VOC07](https://drive.google.com/file/d/19M5SY00VX-cUmqH8GQ6diGYG75ot-vnu/view?usp=sharing)
-+ [VOC12](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
-+ Be patient because the data are being uploaded to Google drive
++ [VOC12](https://drive.google.com/file/d/14kXlSd2kAdnxMN0F8VdfCyOmgiWUlxZU/view?usp=sharing)
 
 ---
 
