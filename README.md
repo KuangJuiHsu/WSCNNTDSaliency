@@ -38,6 +38,8 @@ PDF:
 
 + In addition, the random seed and the number of the epoches may effect the performance. 
 
++ The results are slightly better than ones reported in [BMVC'17] for Graz02 Dataset.
+
 ---
 
 ## Results used in BMVC'17:  [Released soon](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
