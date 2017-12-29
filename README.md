@@ -17,7 +17,8 @@ Authors: [Kuang-Jui Hsu](https://www.citi.sinica.edu.tw/pages/kjhsu/), [Yen-Yu L
 PDF: [Link1](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf), [Link2](http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf)
 
 <p>Please cite our paper if this code is useful for your research.</p>
-<pre><code>@inproceedings{HsuBMVC17,
+<pre><code>
+@inproceedings{HsuBMVC17,
   author = {K.-J. Hsu and Y.-Y. Lin and Y.-Y Chuang},
   booktitle = {British Machine Vision Conference (BMVC)},
   title = {Weakly Supervised Saliency Detection with A Category-Driven Map Generator},
@@ -37,9 +38,9 @@ PDF: [Link1](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf
 + The random seed and the number of total epoches may effect the performance. 
 
 + The results are slightly better than ones reported in [BMVC'17] for Graz02 Dataset.
-1. [Link for Epoches](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
-2. [Link for Results](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
-3. Graz02 Results with the release code
+  - [Link for Epoches](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
+  - [Link for Results](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
+  - Graz02 Results with the release code
 
 | Bike  | Car | Person  | Mean |
 | ------------- | ------------- | ------------- | ------------- |
