@@ -36,13 +36,19 @@ PDF:
 
 + The output size of the generator is W * H * 1 after a sigmoid normalization instead of W * H * 2 after a softmax normalization.
 
-+ In addition, the random seed and the number of the epoches may effect the performance. 
++ The parameters for weighting losses are tuned.
 
-+ The results are slightly better than ones reported in [BMVC'17] for Graz02 Dataset.
++ The random seed and the number of total epoches may effect the performance. 
+
++ The results are slightly better than ones reported in [BMVC'17] for Graz02 Dataset, and the results for all epoches can be downloaded from [Here](https://github.com/KuangJuiHsu/WSCNNTDSaliency).
+
 
 ---
 
-## Results used in BMVC'17:  [Released soon](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
+## Results used in BMVC'17:  
++ [Graz02](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
++ [VOC07](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
++ [VOC12](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
 + Be patient because the data are being uploaded to Google drive
 
 ---
