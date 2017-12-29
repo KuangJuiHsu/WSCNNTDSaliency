@@ -22,7 +22,7 @@ EvalSaveDir = New_mkdir([pwd '/' SaveDirName '/' DataSetName]);
 TestClassNameList = {'bike', 'cars', 'person'};
 Lambda = [2.5 0.6 2^12];
 learningRate = 0.00001 * ones(1, 100);
-PrecEER_Smooth = zeros(1, length(TestClassNameList));
+PrecEER_Smooth_List = zeros(1, length(TestClassNameList));
 for i = 1:length(TestClassNameList)
     opts = CNNTrain('DataSetName', DataSetName, 'expDir', [expDir '/' DataSetName], 'GPUID', GPUID,...
         'ClassName', TestClassNameList{i}, 'Lambda', Lambda(1:2), 'FCNModelPath', FCNModelPath, 'learningRate', learningRate, ...
@@ -36,11 +36,12 @@ for i = 1:length(TestClassNameList)
     VariableInfo = who('-file', EvalSaveName);
     if ~ismember('PrecEER_Smooth', VariableInfo)
         Data  = load(EvalSaveName);
-        [SalImg_Smooth, PrecEER_Smooth(i)] = GraphOptimization(Data.DataSet, Data.SalImg, Data.Lambda(end));
+        [SalImg_Smooth, PrecEER_Smooth] = GraphOptimization(Data.DataSet, Data.SalImg, Data.Lambda(end));
         save(EvalSaveName, 'SalImg_Smooth', 'PrecEER_Smooth', '-append');
     else
         Data = load(EvalSaveName, 'PrecEER_Smooth');
-        PrecEER_Smooth(i) = Data.PrecEER_Smooth;
+        PrecEER_Smooth = Data.PrecEER_Smooth;
     end
+    PrecEER_Smooth_List(i) = PrecEER_Smooth;
     close all
 end
