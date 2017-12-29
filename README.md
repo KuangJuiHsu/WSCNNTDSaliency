@@ -14,11 +14,7 @@ Authors: [Kuang-Jui Hsu](https://www.citi.sinica.edu.tw/pages/kjhsu/), [Yen-Yu L
 <img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/BMVC17.PNG" height="400"/>
 <img src="https://github.com/KuangJuiHsu/WSCNNTDSaliency/blob/master/Image/BMVC17_Result.PNG" height="400"/>
 
-PDF:
-
-+ Link1: https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf 
-
-+ Link2: http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf
+PDF: [Link1](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf), [Link2](http://cvlab.citi.sinica.edu.tw/images/paper/bmvc-Hsu17.pdf)
 
 <p>Please cite our paper if this code is useful for your research.</p>
 <pre><code>@inproceedings{HsuBMVC17,
@@ -46,8 +42,8 @@ PDF:
 ---
 
 ## Results used in BMVC'17:  
-+ [Graz02](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
-+ [VOC07](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
++ [Graz02](https://drive.google.com/file/d/1Se6uKCAqfzi2AvdyXRk6j4bHH34cM-Nr/view?usp=sharing)
++ [VOC07](https://drive.google.com/file/d/19M5SY00VX-cUmqH8GQ6diGYG75ot-vnu/view?usp=sharing)
 + [VOC12](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
 + Be patient because the data are being uploaded to Google drive
 
