@@ -31,7 +31,7 @@ PDF:
 
 ---
 
-## Demo for Training and test: "Run.m"
+## Demo for training and test: "Run.m"
 + This code is only for demo and different from the origianl code because some files were overwrited when I worked for the journal extension. 
 
 + The output size of the generator is W * H * 1 after a sigmoid normalization instead of W * H * 2 after a softmax normalization.
