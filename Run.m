@@ -21,16 +21,26 @@ GPUID = 1;
 EvalSaveDir = New_mkdir([pwd '/' SaveDirName '/' DataSetName]);
 TestClassNameList = {'bike', 'cars', 'person'};
 Lambda = [2.5 0.6 2^12];
-learningRate = 0.00001 * ones(1, 20); 
+learningRate = 0.00001 * ones(1, 100);
+PrecEER_Smooth = zeros(1, length(TestClassNameList));
 for i = 1:length(TestClassNameList)
     opts = CNNTrain('DataSetName', DataSetName, 'expDir', [expDir '/' DataSetName], 'GPUID', GPUID,...
         'ClassName', TestClassNameList{i}, 'Lambda', Lambda(1:2), 'FCNModelPath', FCNModelPath, 'learningRate', learningRate, ...
         'ClassifierModelPath', [ClassifierModelDir '/' DataSetName '/' TestClassNameList{i} '/TrainedNet.mat']);
     EvalSaveName = [EvalSaveDir '/' TestClassNameList{i} '.mat'];
-    [DataSet, SalImg, PrecEER] = CNNTest('expDir', opts.expDir, 'TestDir', [pwd '/Dataset/' DataSetName], ...
-        'TestClassName', TestClassNameList{i}, 'GPUID', GPUID);
-    save(EvalSaveName, 'DataSet', 'SalImg', 'PrecEER', 'Lambda');
-    [SalImg_Smooth, PrecEER_Smooth] = GraphOptimization(DataSet, SalImg, Lambda(end));
-    save(EvalSaveName, 'SalImg_Smooth', 'PrecEER_Smooth', '-append');
+    if ~exist(EvalSaveName, 'file')
+        [DataSet, SalImg, PrecEER] = CNNTest('expDir', opts.expDir, 'TestDir', [pwd '/Dataset/' DataSetName], ...
+            'TestClassName', TestClassNameList{i}, 'GPUID', GPUID);
+        save(EvalSaveName, 'DataSet', 'SalImg', 'PrecEER', 'Lambda');
+    end
+    VariableInfo = who('-file', EvalSaveName);
+    if ~ismember('PrecEER_Smooth', VariableInfo)
+        Data  = load(EvalSaveName);
+        [SalImg_Smooth, PrecEER_Smooth(i)] = GraphOptimization(Data.DataSet, Data.SalImg, Data.Lambda(end));
+        save(EvalSaveName, 'SalImg_Smooth', 'PrecEER_Smooth', '-append');
+    else
+        Data = load(EvalSaveName, 'PrecEER_Smooth');
+        PrecEER_Smooth(i) = Data.PrecEER_Smooth;
+    end
     close all
 end
