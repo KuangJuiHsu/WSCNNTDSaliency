@@ -38,8 +38,8 @@ PDF: [Link1](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2017WSS.pdf
 + The random seed and the number of total epoches may effect the performance. 
 
 + The results are slightly better than ones reported in [BMVC'17] for Graz02 Dataset.
-  - [Link for Epoches](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
-  - [Link for Results](https://github.com/KuangJuiHsu/WSCNNTDSaliency)
+  - [Link for Epoches](https://drive.google.com/file/d/1PApKBhUINYk8eN23N6YcCKRyNgz6hfs_/view?usp=sharing)
+  - [Link for Results](https://drive.google.com/file/d/1JG9hFm9iyHI6P2sDeieS6pv2UC0JmbPy/view?usp=sharing)
   - Graz02 Results with the release code
 
 | Bike  | Car | Person  | Mean |
