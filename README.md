@@ -1,6 +1,6 @@
 # Codes for Weakly Supervised Saliency Detection
 
-Contact: [Kuang-Jui Hsu](https://www.citi.sinica.edu.tw/pages/kjhsu/) (Email: kuang.jui.hsu@gmail.com)
+Contact: [Kuang-Jui Hsu](https://www.citi.sinica.edu.tw/pages/kjhsu/) 
 
 Last update: 2017/12/30
 
